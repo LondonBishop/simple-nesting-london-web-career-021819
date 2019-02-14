@@ -136,13 +136,13 @@ def adding_to_dennis
         }
      }
      
-     #programmer_hash[:dennis_ritchie][:languages].push("Assembley")
+    programmer_hash[:dennis_ritchie][:languages].push("Assembley")
      
-    progArray = programmer_hash[:dennis_ritchie][:languages]
-    binding.pry
-    progArray.push("Assembley")
-    binding.pry
-    programmer_hash[:dennis_ritchie][:languages] = progArray
+    #progArray = programmer_hash[:dennis_ritchie][:languages]
+    #binding.pry
+    #progArray.push("Assembley")
+    #binding.pry
+    #programmer_hash[:dennis_ritchie][:languages] = progArray
     binding.pry
     return programmer_hash
     
