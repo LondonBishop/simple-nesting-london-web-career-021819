@@ -136,7 +136,7 @@ def adding_to_dennis
         }
      }
      
-     programmer_hash[:dennis_ritchie][:languages].index(-1) = "Assembley"
+     programmer_hash[:dennis_ritchie][:languages].push("Assembley")
      
     #progArray = programmer_hash[:dennis_ritchie][:languages].index
      #progArray.push("Assembley")
