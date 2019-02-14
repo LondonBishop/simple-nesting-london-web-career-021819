@@ -135,7 +135,7 @@ def adding_to_dennis
         }
      }
      
-     progArray = programmer_hash[:dennis_ritchie][:languages][-1] = "Assembley"
+     programmer_hash[:dennis_ritchie][:languages][-1] = "Assembley"
      return programmer_hash
     
 end
