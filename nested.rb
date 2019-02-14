@@ -1,4 +1,4 @@
-require 'pry'
+
 
 def hopper
 	programmer_hash = 
@@ -136,14 +136,7 @@ def adding_to_dennis
         }
      }
      
-    programmer_hash[:dennis_ritchie][:languages].push("Assembley")
-     
-    #progArray = programmer_hash[:dennis_ritchie][:languages]
-    #binding.pry
-    #progArray.push("Assembley")
-    #binding.pry
-    #programmer_hash[:dennis_ritchie][:languages] = progArray
-    binding.pry
+    programmer_hash[:dennis_ritchie][:languages].push("Assembly")
     return programmer_hash
     
 end
